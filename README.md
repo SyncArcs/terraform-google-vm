@@ -19,7 +19,7 @@ This section configures a compute instance. It specifies the name, environment, 
 ```hcl
 module "compute_instance" {
   source                 = "SyncArcs/vm/google"
-  version                = "1.0.1"
+  version                = "1.0.2"
   name                   = "app"
   environment            = "test"
   instance_count         = 1
@@ -34,7 +34,7 @@ module "compute_instance" {
   enable_public_ip = true
   metadata = {
     ssh-keys = <<EOF
-      test:ssh-rsa AAAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbLLNM= suresh@suresh
+      test:ssh-rsa AAAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbLLNM= ashish@ashish
     EOF
   }
 }

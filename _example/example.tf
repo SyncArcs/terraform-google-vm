@@ -67,7 +67,7 @@ module "compute_instance" {
   enable_public_ip = true
   metadata = {
     ssh-keys = <<EOF
-      test:ssh-rsa AAAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbLLNM= suresh@suresh
+      test:ssh-rsa AAAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbLLNM= ashish@ashish
     EOF
   }
 }
