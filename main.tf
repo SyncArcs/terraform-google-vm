@@ -54,3 +54,4 @@ resource "google_compute_instance" "default" {
   }
   allow_stopping_for_update = var.allow_stopping_for_update
 }
+
